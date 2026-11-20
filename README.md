@@ -1,5 +1,9 @@
 # Franka + XHand π₀.₅ SFT — step 30000
 
+这是 π₀.₅ 在 Franka + XHand 数据集上完成 30000 步 SFT 后的**完整 checkpoint**，包括模型参数和续训状态。已有 Student、K4 配套的是按验证集选出的 step 1500 基线，不能未经重新验证就将此 step 30000 与现有 K4 直接组合使用。当前没有真机闭环成功结果。
+
+在 Release 中下载全部 `pi05_xhand_sft_30000.tar.zst.part-*` 文件到 `parts/`，同时将 `SHA256SUMS.txt`、`CHECKPOINT_FILES.sha256` 和 `extract.sh` 下载到 `parts/` 的上一级；在那里执行 `bash extract.sh`。脚本会先核验分卷，再解压 `30000/` 并核验每个 checkpoint 文件。
+
 This artifact contains the complete recorded `30000/` checkpoint from the Franka + XHand fine-tuning run: model parameters, normalization assets and training state for resuming. It is separate from the **step 1500** checkpoint selected for the existing Student and K4 training. Do not assume that the existing K4 is validated with this checkpoint.
 
 The full SFT ran for 30000 steps. On the recorded validation metric, step 1500 flow MSE was 0.0760497; step 30000 was 0.1759443. This offline metric is not robot task success; neither checkpoint has been shown here to succeed in real-robot closed-loop evaluation.
