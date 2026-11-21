@@ -1,0 +1,1 @@
+"""Frozen Teacher dependencies only."""

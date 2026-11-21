@@ -1,0 +1,3 @@
+57d2ddd474bcaba96f56e2cd98ce5069cf8e0d9a65a73ada6e0098530c521e86  weights/pi05_selected_1500.tar.zst.part-00
+7af79fc23955580b3136e6a8e2b4b9d690f25458124297086b73a61331188928  weights/pi05_selected_1500.tar.zst.part-01
+baa4c4b567c5329485060c38d0ab37f45ab0a1ec966c5c3d761c8f4ceffe767f  weights/pi05_selected_1500.tar.zst.part-02

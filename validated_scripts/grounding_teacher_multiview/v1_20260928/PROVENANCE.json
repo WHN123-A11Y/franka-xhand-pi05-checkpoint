@@ -1,0 +1,18 @@
+{
+  "base_git_revision": "29983a5494bf52cf88fd944ebf9ce857bc9fa4c4",
+  "note": "Source files include untracked experimental files; use SHA256 manifest, not Git revision alone.",
+  "sources": {
+    "source/experiments/delta_grounding/success_teacher_multiview_v1.py": "FineVLA_language_vision/project/experiments/delta_grounding/success_teacher_multiview_v1.py",
+    "source/experiments/delta_grounding/teacher_crossview_bt.py": "FineVLA_language_vision/project/experiments/delta_grounding/teacher_crossview_bt.py",
+    "source/experiments/delta_grounding/teacher_stage2_fast_local_bradley_terry_v1.py": "FineVLA_language_vision/project/experiments/delta_grounding/teacher_stage2_fast_local_bradley_terry_v1.py",
+    "source/experiments/delta_grounding/test_generic_hierarchical_semantic_screen.py": "FineVLA_language_vision/project/experiments/delta_grounding/test_generic_hierarchical_semantic_screen.py",
+    "source/experiments/delta_grounding/test_qwen_auto_proposal_teacher.py": "FineVLA_language_vision/project/experiments/delta_grounding/test_qwen_auto_proposal_teacher.py",
+    "source/experiments/delta_grounding/FROZEN_TEACHER_1691_V1_20260816/teacher_stage1_1691_phaseaware_twoschedule.py": "FineVLA_language_vision/project/experiments/delta_grounding/FROZEN_TEACHER_1691_V1_20260816/teacher_stage1_1691_phaseaware_twoschedule.py",
+    "source/experiments/delta_grounding/LOCKED_MULTIVIEW_TEACHER_BT_V1_20260903/teacher_per_view.py": "FineVLA_language_vision/project/experiments/delta_grounding/LOCKED_MULTIVIEW_TEACHER_BT_V1_20260903/teacher_per_view.py",
+    "source/starVLA/model/modules/delta_grounding/compact_candidate_pooler.py": "FineVLA_language_vision/project/starVLA/model/modules/delta_grounding/compact_candidate_pooler.py",
+    "source/starVLA/model/modules/delta_grounding/sliding_candidate_pooler.py": "FineVLA_language_vision/project/starVLA/model/modules/delta_grounding/sliding_candidate_pooler.py",
+    "smoke.py": "experiments/grounding_teacher_multiview/smoke.py (path/default changes only)",
+    "export_results.py": "experiments/grounding_teacher_multiview/export_results.py"
+  },
+  "validated_run": "runs/grounding_teacher_smoke_20260928_085918_402834"
+}

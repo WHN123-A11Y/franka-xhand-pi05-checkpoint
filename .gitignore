@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+/models/
+/weights/
+/assets/openpi_cache/
+/materials/
+/runs/
+/samples/**/*.npz
+*.pt
+*.safetensors
+*.ckpt
+.env
+.env.*

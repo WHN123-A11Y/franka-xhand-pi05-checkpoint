@@ -1,0 +1,21 @@
+{
+  "PROVENANCE.json": "4d51bb4ceab91768ae084128e9fb5d94f19f7764c01d51a56cf40e8f1599e7c7",
+  "README.md": "3b19d20ffa4d0b4bef9d54af601f47b0bb889714c031d55daadc044728422fda",
+  "export_results.py": "5f2b6cdd7ab79b94f914360b867f31de2c5f5780c2aaa00c1ff41618255e70e4",
+  "fixtures/language_results.jsonl": "175507aeb2e74501d4241902eaa2ca2569da66092a70b80770da90c822a8ad66",
+  "fixtures/validated_case.json": "2df71ddd8aefe4539a914bc49f219f9bb61ffec3df997370dcb70f91a568a014",
+  "smoke.py": "ea91e81f5af0a2a23e1a59b862e6864fb033fb08474a8af26c1e50b3aebf746a",
+  "source/experiments/delta_grounding/FROZEN_TEACHER_1691_V1_20260816/teacher_stage1_1691_phaseaware_twoschedule.py": "fb123157d3b750c697d247e1d9ac57cbaadb3ffe86547d799dbc21c25733cebd",
+  "source/experiments/delta_grounding/LOCKED_MULTIVIEW_TEACHER_BT_V1_20260903/teacher_per_view.py": "cb1200c4cea33043d036a98b079b68972f2d643cc8c06ae4807fd388ca7643ed",
+  "source/experiments/delta_grounding/success_teacher_multiview_v1.py": "941ea702aa1df21df2aa65ebf139e5ac60e43b30adf875b02458da943ac24b6a",
+  "source/experiments/delta_grounding/teacher_crossview_bt.py": "ccc37aa2e9dbc244f109bfd1b9b4bc7fc89e2a90301982ec052d20c081d6b479",
+  "source/experiments/delta_grounding/teacher_stage2_fast_local_bradley_terry_v1.py": "39418ac43d1f3e5bdbc0ec395bc7a88cb55edb6174e6628e73be5a5901e6f468",
+  "source/experiments/delta_grounding/test_generic_hierarchical_semantic_screen.py": "0563d5c067dfc82502086e01ea2e279880fa4d6a890723c739b2252114d6f9ad",
+  "source/experiments/delta_grounding/test_qwen_auto_proposal_teacher.py": "c27b8c52a512d8e7a2102b21b02634bce98f520fa87dceea03e5be25f76d979c",
+  "source/starVLA/__init__.py": "0aeffdf230600d7b3031ba27f42b03300655bfac75ae0a563d426e4d60a8a74e",
+  "source/starVLA/model/__init__.py": "0aeffdf230600d7b3031ba27f42b03300655bfac75ae0a563d426e4d60a8a74e",
+  "source/starVLA/model/modules/__init__.py": "0aeffdf230600d7b3031ba27f42b03300655bfac75ae0a563d426e4d60a8a74e",
+  "source/starVLA/model/modules/delta_grounding/__init__.py": "0aeffdf230600d7b3031ba27f42b03300655bfac75ae0a563d426e4d60a8a74e",
+  "source/starVLA/model/modules/delta_grounding/compact_candidate_pooler.py": "126d3c00d90f18b53e0bfda8d7c7cb4a37d53c84323481fea22df2e7d0fb7b21",
+  "source/starVLA/model/modules/delta_grounding/sliding_candidate_pooler.py": "df1a83550082675d85629466756d91b958d5eb079f0bf0bccce9215270b7401b"
+}
