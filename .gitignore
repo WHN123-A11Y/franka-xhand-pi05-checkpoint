@@ -12,3 +12,6 @@ __pycache__/
 *.ckpt
 .env
 .env.*
+
+/PAIRED_ASSETS_SHA256.txt
+/licenses/

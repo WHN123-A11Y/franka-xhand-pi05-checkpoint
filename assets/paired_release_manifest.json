@@ -1,0 +1,64 @@
+{
+  "repository": "WHN123-A11Y/franka-xhand-pi05-checkpoint",
+  "release": "student-k4-step1500",
+  "baseline_step": 1500,
+  "student_step": 2000,
+  "k4_step": 12273,
+  "assets": [
+    {
+      "name": "paired_assets.zip",
+      "size": 62052559,
+      "sha256": "bba6de6eccaa6cf46d5550c00729bccd1ad9a1a19dcb92f0d2d4179d409b0efc",
+      "url": "https://github.com/WHN123-A11Y/franka-xhand-pi05-checkpoint/releases/download/student-k4-step1500/paired_assets.zip"
+    },
+    {
+      "name": "pi05_selected_1500.tar.zst.part-00",
+      "size": 1992294400,
+      "sha256": "65bce425e390c88ffb29bbd7a0f9dd46b7f583aecee4f25a1273469e001c3978",
+      "url": "https://github.com/WHN123-A11Y/franka-xhand-pi05-checkpoint/releases/download/student-k4-step1500/pi05_selected_1500.tar.zst.part-00"
+    },
+    {
+      "name": "pi05_selected_1500.tar.zst.part-01",
+      "size": 1992294400,
+      "sha256": "ab3c7f1caa41f30589968d8cb36193b000cfe4141e6fcce3fa779f8aa41937dd",
+      "url": "https://github.com/WHN123-A11Y/franka-xhand-pi05-checkpoint/releases/download/student-k4-step1500/pi05_selected_1500.tar.zst.part-01"
+    },
+    {
+      "name": "pi05_selected_1500.tar.zst.part-02",
+      "size": 1992294400,
+      "sha256": "e0ad04c976da5dc647caa978011a7877702e36603c3238201e00a1b3ba824560",
+      "url": "https://github.com/WHN123-A11Y/franka-xhand-pi05-checkpoint/releases/download/student-k4-step1500/pi05_selected_1500.tar.zst.part-02"
+    },
+    {
+      "name": "pi05_selected_1500.tar.zst.part-03",
+      "size": 1992294400,
+      "sha256": "213d1c4f4ac2b057be1f512b6d26eaea2323f9c5e479b23fb67c28c85cb453f4",
+      "url": "https://github.com/WHN123-A11Y/franka-xhand-pi05-checkpoint/releases/download/student-k4-step1500/pi05_selected_1500.tar.zst.part-03"
+    },
+    {
+      "name": "pi05_selected_1500.tar.zst.part-04",
+      "size": 1992294400,
+      "sha256": "283c80bd70c6a3a718d0720ae032cbbb6e7c7cc722351cf0c6344e7440219422",
+      "url": "https://github.com/WHN123-A11Y/franka-xhand-pi05-checkpoint/releases/download/student-k4-step1500/pi05_selected_1500.tar.zst.part-04"
+    },
+    {
+      "name": "pi05_selected_1500.tar.zst.part-05",
+      "size": 1992294400,
+      "sha256": "2637bd80d45f72463f11716dee5376b46bba07031eeef31f34aebc0a86c97ef7",
+      "url": "https://github.com/WHN123-A11Y/franka-xhand-pi05-checkpoint/releases/download/student-k4-step1500/pi05_selected_1500.tar.zst.part-05"
+    },
+    {
+      "name": "pi05_selected_1500.tar.zst.part-06",
+      "size": 487649742,
+      "sha256": "32cc98398f6bd508945b0d4ab977485569194b51e3f5dfbc8987aef7384a4221",
+      "url": "https://github.com/WHN123-A11Y/franka-xhand-pi05-checkpoint/releases/download/student-k4-step1500/pi05_selected_1500.tar.zst.part-06"
+    },
+    {
+      "name": "policy_parts_github.sha256",
+      "size": 763,
+      "sha256": "e7dd07eaff99b4df95694f4d759cc742f1be1209f5d27971e5a76560c75a5a20",
+      "url": "https://github.com/WHN123-A11Y/franka-xhand-pi05-checkpoint/releases/download/student-k4-step1500/policy_parts_github.sha256"
+    }
+  ],
+  "samples_included": false
+}

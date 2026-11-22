@@ -35,9 +35,12 @@ def digest(path: Path) -> str:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--full-policy-hash", action="store_true", help="校验已解压 π₀.₅ 的全部 19 个文件，需读取约 12 GiB")
+    parser.add_argument("--weights-only", action="store_true", help="仅检查源码和权重；不要求私下提供的真实记录帧")
     args = parser.parse_args()
     errors = []
     for relative in REQUIRED:
+        if args.weights_only and relative.startswith("samples/"):
+            continue
         path = ROOT / relative
         if not path.is_file():
             errors.append(f"缺少 {relative}")
@@ -68,7 +71,7 @@ def main() -> int:
             print(f"ERROR  {e}", file=sys.stderr)
         print("检查工程目录或先运行 scripts/unpack_policy.sh；详见 README。", file=sys.stderr)
         return 1
-    print("检查通过。仅说明离线文件就绪，不表示模型可控制真机。")
+    print("检查通过。仅说明所选文件检查通过；未执行推理或真机控制。")
     return 0
 
 

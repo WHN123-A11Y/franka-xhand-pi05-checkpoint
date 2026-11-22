@@ -2,36 +2,65 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "0. 下载并恢复配套 Student/K4 和 step 1500",
+      "type": "shell",
+      "command": "bash scripts/fetch_paired_assets.sh",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
       "label": "1. 解包并校验 π₀.₅ 权重",
       "type": "shell",
       "command": "bash scripts/unpack_policy.sh",
-      "options": {"cwd": "${workspaceFolder}"},
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "problemMatcher": [],
-      "presentation": {"reveal": "always", "panel": "shared"}
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
     },
     {
       "label": "2. 创建 Python 离线环境",
       "type": "shell",
       "command": "bash scripts/setup_native_env.sh",
-      "options": {"cwd": "${workspaceFolder}"},
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "problemMatcher": [],
-      "presentation": {"reveal": "always", "panel": "shared"}
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
     },
     {
       "label": "3. 检查模型与样本",
       "type": "shell",
       "command": "python3.11 scripts/check_assets.py",
-      "options": {"cwd": "${workspaceFolder}"},
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "problemMatcher": [],
-      "presentation": {"reveal": "always", "panel": "shared"}
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
     },
     {
       "label": "4. 运行离线样本（GPU 0）",
       "type": "shell",
       "command": "bash scripts/run_offline.sh --gpu 0",
-      "options": {"cwd": "${workspaceFolder}"},
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "problemMatcher": [],
-      "presentation": {"reveal": "always", "panel": "shared"}
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
     }
   ]
 }

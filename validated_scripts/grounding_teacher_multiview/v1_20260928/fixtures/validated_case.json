@@ -1,0 +1,50 @@
+{
+  "dataset": "RoboTwin-Clean",
+  "task": "adjust_bottle",
+  "episode": 8,
+  "task_index": 8,
+  "frame": 0,
+  "timestamp": 0.0,
+  "instruction": "Use the left arm to pick the smooth bottle with red lid up and keep it head-up.",
+  "target": "smooth bottle with red lid",
+  "language_source": "/data/adminad/workspace/FineVLA_clean/runs/grounding_language_20260928_083032_248880/results.jsonl",
+  "model": "/data/adminad/models/Qwen3.5-4B",
+  "adaptations": [
+    {
+      "source": "/data/adminad/workspace/FineVLA_clean/FineVLA_language_vision/project/experiments/delta_grounding/success_teacher_multiview_v1.py",
+      "sha256": "941ea702aa1df21df2aa65ebf139e5ac60e43b30adf875b02458da943ac24b6a",
+      "adapted_sha256": "abdf8aef73ab1a3579497648ee9ff872d48ec89b0e92be9771eb7ef251ddb787"
+    },
+    {
+      "source": "/data/adminad/workspace/FineVLA_clean/FineVLA_language_vision/project/experiments/delta_grounding/teacher_crossview_bt.py",
+      "sha256": "ccc37aa2e9dbc244f109bfd1b9b4bc7fc89e2a90301982ec052d20c081d6b479",
+      "adapted_sha256": "e3e43c0490c2765e2883414e82b0508a33b1ae83726ebd77b4464d0648ca28af"
+    },
+    {
+      "source": "/data/adminad/workspace/FineVLA_clean/FineVLA_language_vision/project/experiments/delta_grounding/teacher_stage2_fast_local_bradley_terry_v1.py",
+      "sha256": "39418ac43d1f3e5bdbc0ec395bc7a88cb55edb6174e6628e73be5a5901e6f468",
+      "adapted_sha256": "39418ac43d1f3e5bdbc0ec395bc7a88cb55edb6174e6628e73be5a5901e6f468"
+    },
+    {
+      "source": "/data/adminad/workspace/FineVLA_clean/FineVLA_language_vision/project/experiments/delta_grounding/test_generic_hierarchical_semantic_screen.py",
+      "sha256": "0563d5c067dfc82502086e01ea2e279880fa4d6a890723c739b2252114d6f9ad",
+      "adapted_sha256": "0563d5c067dfc82502086e01ea2e279880fa4d6a890723c739b2252114d6f9ad"
+    },
+    {
+      "source": "/data/adminad/workspace/FineVLA_clean/FineVLA_language_vision/project/experiments/delta_grounding/test_qwen_auto_proposal_teacher.py",
+      "sha256": "c27b8c52a512d8e7a2102b21b02634bce98f520fa87dceea03e5be25f76d979c",
+      "adapted_sha256": "b0c610ba1742fc6af56f90f64aa5a8b239e12dd78cdbce99e66e96a393b9b835"
+    },
+    {
+      "source": "/data/adminad/workspace/FineVLA_clean/FineVLA_language_vision/project/experiments/delta_grounding/FROZEN_TEACHER_1691_V1_20260816/teacher_stage1_1691_phaseaware_twoschedule.py",
+      "sha256": "fb123157d3b750c697d247e1d9ac57cbaadb3ffe86547d799dbc21c25733cebd",
+      "adapted_sha256": "fb123157d3b750c697d247e1d9ac57cbaadb3ffe86547d799dbc21c25733cebd"
+    },
+    {
+      "source": "/data/adminad/workspace/FineVLA_clean/FineVLA_language_vision/project/experiments/delta_grounding/LOCKED_MULTIVIEW_TEACHER_BT_V1_20260903/teacher_per_view.py",
+      "sha256": "cb1200c4cea33043d036a98b079b68972f2d643cc8c06ae4807fd388ca7643ed",
+      "adapted_sha256": "f0d99a8d9c84b9b165eca25c7779da5610bc9a9e87f3e391e31a4f36718d8684"
+    }
+  ],
+  "notes": "Original candidate/ranking algorithm; path-only adaptation. No resume, no visibility guarantee."
+}

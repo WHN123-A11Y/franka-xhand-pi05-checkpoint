@@ -1,0 +1,8 @@
+{
+  "file": "scripts/train.py",
+  "actual_training_source": "/data/fangchuan/workspace/openpi_pi05_xhand_20260923/scripts/train.py",
+  "sha256": "22f98a06aaa6e68e0f725d727ab95398238d1cae8a46bb94e829f330758a9baf",
+  "copy_byte_identical": true,
+  "reason": "Required by experiments/real_franka_full_training_v1/policy/train.py dynamic module loader. Imports only vendored openpi modules and declared Python packages.",
+  "math_changes": false
+}
